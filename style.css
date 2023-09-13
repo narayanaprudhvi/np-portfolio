@@ -658,14 +658,35 @@ header {
 
 @media screen and (max-width: 900px) {
   .bg-text:after, .number-after-two:after, .number-after-three:after, .number-after-four:after, .number-after-five:after{
-    font-size: 20rem;
+    font-size: 16rem;
   }
-  .number-after-two, .swiper-wrapperrrr{
+  .number-after-two{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    gap: 20px;
+  }
+  .number-after-three:after{
+    left: -16%;
+  }
+  .number-after-five:after{
+    left:-8%;
+    top:20%;
+  }
+  .porfolio-cardss{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+  }
+  .swiper-wrapperrrr{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
   .number-after-four:after{
     top : 80%;
+  }
+  .port-images{
+    width: 280px;
+    height: 300px;
   }
 }
