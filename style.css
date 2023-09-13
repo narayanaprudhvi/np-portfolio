@@ -671,7 +671,7 @@ header {
   }
   .number-after-five:after{
     left:-8%;
-    top:20%;
+    top:10%;
   }
   .porfolio-cardss{
     display: grid;
